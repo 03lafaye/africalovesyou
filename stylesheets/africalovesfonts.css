@@ -1,0 +1,14 @@
+@font-face {
+    font-family: ubuntu;
+    src: url("../fonts/Ubuntu-R.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ubuntuit;
+    src: url("../fonts/Ubuntu-RI.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ubuntubd;
+    src: url("../fonts/Ubuntu-B.ttf") format("truetype");
+}

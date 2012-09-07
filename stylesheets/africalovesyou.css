@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: ubuntu;
+}
+
+.donate a {
+    font-family: ubuntubd;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 1px 4px;
+    position: absolute;
+    top: 25px;
+    text-decoration: none;
+    right: 250px;
+    color: black;
+    cursor: pointer;
+}
+
+.donate a:hover {
+    color: #fd9d08;
+}
+
+.header {
+    background: url(../images/africa_elephants.jpg) 50% 14px no-repeat;
+    height: 430px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 158px;
+    left: 508px;
+}
+
+.container {
+    margin-top: -20px;
+    background-color: black;
+}
+
+.content {
+    background: url(../images/bg_content.jpg) 50% no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content .item {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 486px;
+}
+
+.content .item .head {
+    font-family: ubuntubd;
+    padding: 20px 32px 0px 32px;
+    font-size: 30px;
+}
+
+.content .item .body {
+    color: black;
+    padding: 15px 32px;
+    text-align: justify;
+    line-height: 30px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.content .item .body .signature {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.content .item .foot {
+}
+
+.footer {
+    background: url(../images/africa_elephants.jpg) 50% -464px no-repeat;
+    height: 337px;
+}
