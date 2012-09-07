@@ -47,7 +47,7 @@ html, body {
 }
 
 .content {
-    background: url(../images/bg_content.jpg) 50% no-repeat;
+    background: url(../images/bg_content.jpg) 50% repeat-y;
     overflow: hidden;
     margin: 0 auto;
 }
