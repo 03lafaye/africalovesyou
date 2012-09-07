@@ -19,7 +19,8 @@ html, body {
     position: absolute;
     top: 25px;
     text-decoration: none;
-    right: 250px;
+    left: 50%;
+    margin-left: 300px;
     color: black;
     cursor: pointer;
 }
@@ -36,7 +37,8 @@ html, body {
 .header .logo {
     position: absolute;
     top: 158px;
-    left: 508px;
+    left: 50%;
+    margin-left: -119px;
 }
 
 .container {
