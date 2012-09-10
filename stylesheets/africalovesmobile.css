@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: ubuntu;
+    background-color: #fd9d08;
+}
+
+.header img {
+    width: 100%;
+}
+
+.donate a {
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    font-family: ubuntubd;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 1px 4px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.donate a:hover {
+    color: #fd9d08;
+}
+
+.content {
+    position: relative;
+    margin-top: -15px;
+    z-index: 1000;
+}
+
+.content .item {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.content .item .head {
+    font-family: ubuntubd;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content .item .body {
+    color: black;
+    padding: 15px 32px;
+    line-height: 20px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    font-size: 12px;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.content .item .body .signature {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.footer img {
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    z-index: 1;
+}
